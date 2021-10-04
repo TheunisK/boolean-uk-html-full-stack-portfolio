@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    max-width: 100vw;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+
+}
+
+nav {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+name {
+    display: grid;
+    padding: 10px;
+    place-items: center left;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.button {
+    display: grid;
+    border: white 1px dotted;
+    width: 110px;
+    height: 30px;
+    place-items: center;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(13, 46, 190);
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 10px;
+
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+    grid-area: main;
+    background-color: blue;
+}
+
+main_section {
+    display: grid;
+    grid-template-columns: 1fr 50rem 1fr;
+}
+
+.main_content {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+    color: white;
+}
+
+about_me {
+    grid-area: about_me;
+    display: grid;
+    grid-template-columns: 1fr 50rem 1fr;
+    line-height: 2.2rem;
+    background-color: white;
+}
+
+.about_me_Content {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+portfolio {
+    grid-area: portfolio;
+    display: grid;
+    grid-template-rows: 2.5rem 3rem 1fr;
+    background-color: white;
+}
+
+header_time {
+    display: grid;
+    background-color: black;
+    color: white;
+    place-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.portfolio_section {
+    display: grid;
+    grid-template-columns: 30rem 30rem 30rem;
+    gap: 20px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    display: grid;
+    border: solid rgb(238, 18, 146) 10px;
+    border-radius: 5px;
+    padding: 50px;
+    line-height: 3rem;
+    box-shadow: 1px 1px 5px rgb(24, 2, 65);
+
+}
+
+experience {
+    display: grid;
+    grid-area: experience;
+    background-color: white;
+    grid-template-columns: 1fr 50rem 1fr;
+}
+
+.container {
+    display: grid;
+    grid-template: 
+    "main" 60rem
+    "about_me" 30rem
+    "portfolio" 40rem
+    "experience" 40rem
+    "footer" 3rem;
+    background-color: rgb(0, 37, 37);
+    gap: 10px;
+}
+
+footer {
+    display: grid;
+    grid-area: footer;
+    background-color: rgb(0, 37, 37);
+    color: white;
+    padding-left: 3rem;
+    line-height: 2.5rem;
+}
+
+h1 {
+    font-size: 9rem;
+}
+
+h2 {
+    font-size: 3rem;
+    display: grid;
+    place-items: center;
+    line-height: 6rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+ul {
+    display: inline-block;
+}
+
+p {
+    line-height: 2rem;
+}
+
